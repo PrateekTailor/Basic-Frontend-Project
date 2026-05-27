@@ -8,6 +8,7 @@
     background-color: white;
     border: 2.5px solid #333;
     padding: 0px 50px 50px 50px;
+    border-radius: 5px;
 }
 body{
     background-color: rgba(170, 171, 172, 0.5);
@@ -18,13 +19,24 @@ hr{
     margin-left: 5PX;
     margin-bottom: 20px;
     border: 2px solid #333;
+    border-radius: 10px;
 }
 h1{
     font-weight: 600;
     margin-bottom: -5px;
 }
-#pone{
-    color: rgb(1, 116, 1);
+.p{
+    color: rgb(7, 140, 181);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.ineducation{
+    color: green;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+.inexperience{
+     color: green;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
