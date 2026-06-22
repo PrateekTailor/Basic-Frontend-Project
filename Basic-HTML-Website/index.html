@@ -1,13 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Html Website</title>
+    <meta name="description" content="This is a Single Page Cv" />
+    <meta name="robots" content="index,follow,max-snippet:-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    \
+    <meta property="og:title" content="Jay Sharma | Web Developer" />
+    <meta
+      property="og:description"
+      content="Hi I'm Jay Sharma A Experienced Web Developer"
+    />
+    <meta
+      property="og:url"
+      content="http://127.0.0.1:3000/Single-Page-Cv/index.html"
+    />
+    <meta name="published_date" content="2026-05-25" />
+    <meta property="og:type" content="profile" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+      #header {
+        display: flex;
+        justify-content: space-between;
+      }
+      div {
+        margin-right: 50px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+      }
+      #name{
+        margin: 0%;
+        margin-left: 50px;
+        font-size: larger;
+        font-weight: 600;
+      }
+      #content{
+        display: block;
+        margin-left: 550px;
+        margin-top: 100px;
+      }
+      h1{
+        margin-bottom: 0px;
+        font-size: 3em;
+          }
+      #main-para{
+        margin-top: 10px;
+        margin-left: 70px;
+        font-size: 15px;
+      }
+      #boxes{
+        border: 2px solid black;
+        height: 450px;
+        width: 100%;
+        display: flex;
+      }
+      #box1{
+        height: 450px;
+        width: 30%;
+        border-right: 2px solid black;
+      }
+      #box2{
+        height: 450px;
+        width: 40%;
+        border-right: 2px solid black;
+      }
+      #box3{
+        height: 450px;
+        width: 30%;
+      }
+      #head{
+         margin-left: 30px;
+         margin-top: 20px;
+         margin-bottom: 10px;
+      }
+      #span1{
+        margin-left: 30px;
+        font-size: larger;
+      }
+      p{
+        font-size: large;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      #project{
+        font-family: 'Times New Roman', Times, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <p id="name">
+          <i class="fa-solid fa-user" style="color: rgb(0, 0, 0)"></i>James Sam
+        </p>
+        <div>
+          <a href="#">Home</a> / 
+          <a href="#">Projects</a> /
+          <a href="#">Articles</a> /
+          <a href="#">Contects</a>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div id="content">
+        <h1>Frontend Developer</h1>
+        <p id="main-para">html only with proper layout ,no styling</p>
+        </div> <br> <br> <br>
+        <div id="boxes">
+            <div id="box1">
+                <div id="head">
+                <h1 id="project">Projects</h1>
+                <p>Html Only portfolio</p> <hr>
+                <p>Calculator</p> <hr>
+                <p>Quiz App</p> <hr>
+                <p>Countdown Timer</p> <hr>
+                <p>Product Upcoming Page</p>
+                </div>
+            </div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+        </div>
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>
