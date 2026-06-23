@@ -26,82 +26,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <style>
-        *{
-            margin: 0%;
-            padding: 0%;
-            box-sizing: border-box;
-        }
-      #header {
-        display: flex;
-        justify-content: space-between;
-      }
-      div {
-        margin-right: 50px;
-      }
-      a {
-        text-decoration: none;
-        color: black;
-        font-size: larger;
-      }
-      #name{
-        margin: 0%;
-        margin-left: 50px;
-        font-size: larger;
-        font-weight: 600;
-      }
-      #content{
-        display: block;
-        margin-left: 550px;
-        margin-top: 100px;
-      }
-      h1{
-        margin-bottom: 0px;
-        font-size: 3em;
-          }
-      #main-para{
-        margin-top: 10px;
-        margin-left: 70px;
-        font-size: 15px;
-      }
-      #boxes{
-        border: 2px solid black;
-        height: 450px;
-        width: 100%;
-        display: flex;
-      }
-      #box1{
-        height: 450px;
-        width: 30%;
-        border-right: 2px solid black;
-      }
-      #box2{
-        height: 450px;
-        width: 40%;
-        border-right: 2px solid black;
-      }
-      #box3{
-        height: 450px;
-        width: 30%;
-      }
-      #head{
-         margin-left: 30px;
-         margin-top: 20px;
-         margin-bottom: 10px;
-      }
-      #span1{
-        margin-left: 30px;
-        font-size: larger;
-      }
-      p{
-        font-size: large;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      }
-      #project{
-        font-family: 'Times New Roman', Times, serif;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -133,10 +58,59 @@
                 <p>Product Upcoming Page</p>
                 </div>
             </div>
-            <div id="box2"></div>
-            <div id="box3"></div>
+            <div id="box2">
+              <div id="content1">
+              <h1 id="box2h1">Work Experience</h1>
+               <h2 id="Company">Media.net</h2>
+               <p id="paragraph">Solved all the Fronted Projects Problems</p>
+               <a id="profile" href="#">Visit My Profile</a>
+               </div> <hr>
+               <div id="contentd2">
+                <h2 id="box2h2">Open Source Contributions</h2>
+                <p id="paragraph2">
+                  Contributed 50+ OpenSource <br> Projects. Made My own Projects With <br> 200+ Github Stars
+                </p>
+                <a href="#" id="profile2">Visit My Github Profile</a>
+               </div>
+            </div>
+            <div id="box3">
+              <h1 id="box3h1">Education</h1>
+              <p id="paragraph3">Graduated with 7.5 out of 10 <br> CGPA. Won Acme Hackthon. <br> Organized 30 Sessions</p>
+              <p id="paragraph4">Course I Took:</p>
+              <ul>
+                <li>Object Oriented Programing</li>
+                <li>Data Structure Algorithm</li>
+                <li>Machine Learning</li>
+                <li>Neural Network Processing</li>
+                <li>Large Langueage Processing</li>
+                <li>Computer Fundamentals</li>
+                <li>Operating System</li>
+                <li>Mathamatices</li>
+                <li>System Design</li>
+              </ul>
+            </div>
+        </div>
+        <h1 id="heading">Reviews From My Teachears</h1>
+        <div id="boxes2">
+          <div id="div1">
+            <p id="paragraph5">Jhon due was brillint and they <br>ask frequesntly question<br> student always stood out <br> with his assignments </p>
+            <h3 class="name">Jhon due</h3>
+            <h3 class="post">Assistant Professer</h3>
+          </div>
+          <div id="div2">
+            <p id="paragraph6">James fandas was brillint they <br>ask frequesntly question <br> student always stood out <br> with his assignments</p>
+            <h3 class="name">Vikal Shah</h3>
+            <h3 class="post">Assistant Professer</h3>
+          </div>
+          <div id="div3">
+            <p id="paragraph7">Peter sam was brillint and they <br>ask frequesntly question <br> student always stood out <br> with his assignments</p>
+            <h3 class="name">Milsan Jhonsan</h3>
+            <h3 class="post">Senior Professer</h3>
+          </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p id="footer">@ All Rights Reserved 2026</p>
+    </footer>
   </body>
 </html>
