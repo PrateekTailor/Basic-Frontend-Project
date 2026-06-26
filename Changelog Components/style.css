@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-weight: 1em;
+}
+#para1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+#line{
+    height: 800px;
+    width: 3px;
+    background-color: black;
+    margin-left: 770px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
