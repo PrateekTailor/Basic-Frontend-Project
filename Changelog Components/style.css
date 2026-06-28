@@ -18,11 +18,41 @@
 }
 #line{
     height: 800px;
-    width: 3px;
+    width: 4px;
     background-color: black;
     margin-left: 770px;
     border-radius: 50px;
     margin-top: 50px;
     margin-bottom: 100px;
-    
+}
+#cycle1{
+    margin-left: -8px;
+    margin-top: 20px;
+}
+#para2{
+    margin-left: 645px;
+    margin-top: -885px;
+    font-size: larger;
+    opacity: 0.5;
+}
+#update1h2{
+    margin-left: 575px;
+    margin-top: 3px;
+}
+#update1{
+    margin-left: -50px;
+}
+#cycle2{
+    margin-left: -8px;
+    margin-top: 90px;
+}
+#para3{
+    margin-left: 790px;
+    margin-top: 42px;
+    font-size: larger;
+    opacity: 0.5;   
+}
+#update2h2{
+     margin-left: 788px;
+    margin-top: 3px;
 }
