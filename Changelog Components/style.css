@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#main{
+    margin-bottom: 50px;
+}
 #heading{
     display: flex;
     justify-content: center;
@@ -55,4 +58,68 @@
 #update2h2{
      margin-left: 788px;
     margin-top: 3px;
+}
+#para4{
+    margin-top: 40px;
+    margin-left: 615px;
+    font-size: larger;
+    opacity: 0.5;
+}
+#update3h2{
+    margin-left: 613px;
+    margin-top: 3px;
+}
+#para5{
+    margin-top: 40px;
+    margin-left: 790px;
+    font-size: larger;
+    opacity: 0.5;
+}
+#update4h2{
+    margin-left: 790px;
+    margin-top: 3px;
+}
+#para6{
+    margin-top: 40px;
+    margin-left: 615px;
+    font-size: larger;
+    opacity: 0.5;
+}
+#update5h2{
+    margin-left:595px;
+    margin-top: 3px;
+}
+#para7{
+    margin-top: 40px;
+    margin-left: 790px;
+    font-size: larger;
+    opacity: 0.5;
+}
+#update6h2{
+    margin-left:790px;
+    margin-top: 3px;
+}
+#para8{
+    margin-top: 63px;
+    margin-left: 625px;
+    font-size: larger;
+    opacity: 0.5;
+}
+#update7h2{
+    margin-left:520px;
+    margin-top: 3px;
+}
+#btn{
+    margin-left: 660px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    font-size: large;
+}
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.728);
 }
