@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#Testmonial1{
+    height: 300px;
+    width: 355px;
+    border: 2px solid black;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+#message{
+    border: 2px solid black;
+    height: 165px;
+    width: 330px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+}
+#message::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+    width: 0px;
+    height: 0px;
+    border: solid;
+    border-width: 10px 10px 0px;
+    border-color: #000000 transparent transparent transparent;
+}
+#para1{
+    color: rgba(245, 245, 245, 0.934);
+    margin: 20px;
+    font-size: large;
+}
+#para2{
+    color: rgba(245, 245, 245, 0.934);
+    margin-left: 20px;
+}
+#img{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 85px;
+    width: 85px;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
