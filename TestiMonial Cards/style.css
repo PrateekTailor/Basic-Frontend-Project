@@ -6,9 +6,8 @@
 #Testmonial1{
     height: 300px;
     width: 355px;
-    border: 2px solid black;
     margin-top: 150px;
-    margin-left: 200px;
+    margin-left: 400px;
 }
 #message{
     border: 2px solid black;
@@ -46,5 +45,63 @@
     width: 85px;
     margin-left: 10px;
     margin-top: 15px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/057/704/911/small/a-young-man-in-a-blue-shirt-free-photo.jpg");
+    background-size: 150%;
+    background-position-x: center;
+}
+#user{
+    margin-left: 110px;
+    margin-top: -65px;
+}
+#Testmonial2{
+    height: 270px;
+    width: 355px;
+    border: 2px solid black;
+    margin-top:-300px;
+    margin-left: 800px;
+    border-radius: 20px;
+}
+#para3{
+    margin: 20px;
+    font-size: large;
+}
+#img2{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 85px;
+    width: 85px;
+    margin-left: 10px;
+    margin-top: 25px;
+    background-image: url("https://img.magnific.com/free-photo/emotions-people-concept-headshot-serious-looking-handsome-man-with-beard-looking-confident-determined_1258-26730.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: 150%;
+    background-position-x: center;
+}
+#user2{
+    margin-left: 110px;
+    margin-top: -65px;
+}
+#Testmonial3{
+    height: 300px;
+    width: 750px;
+    margin-top: 50px;
+    border: 2px solid black;
+    margin-left: 400px;
+    padding: 20px;
+    display: flex;
+}
+#img3{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url("https://img.magnific.com/free-photo/emotions-people-concept-headshot-serious-looking-handsome-man-with-beard-looking-confident-determined_1258-26730.jpg?semt=ais_hybrid&w=740&q=80");
+    background-position-x: center;
+    background-size: 160%;
     
+}
+#message3{
+    height: 250px;
+    width: 450px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 20px;
 }
