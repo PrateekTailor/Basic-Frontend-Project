@@ -84,7 +84,6 @@
     height: 300px;
     width: 750px;
     margin-top: 50px;
-    border: 2px solid black;
     margin-left: 400px;
     padding: 20px;
     display: flex;
@@ -101,7 +100,100 @@
 #message3{
     height: 250px;
     width: 450px;
-    border-radius: 20px;
+    border-radius: 25px;
     border: 2px solid black;
     margin-left: 20px;
+    background-color: #000000;
+}
+i{
+    margin: -2px;
+}
+#star{
+    padding-top: 40px;
+    margin-left: 40px;
+}
+#name2{
+    color: whitesmoke;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#profession{
+    color: whitesmoke;
+    opacity: 0.5;
+    margin-left: 40px;
+}
+#para4{
+    color: whitesmoke;
+    margin-left: 40px;
+    font-size: large;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+#Testmonial4{
+    height: 350px;
+    width: 650px;
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-bottom: 150px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+#para5{
+    font-size: large;
+    margin: 20px;
+    line-height: 24px;
+}
+#Testmonial4img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img4{
+    border-radius: 50px;
+    height: 65px;
+    width: 65px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/057/704/911/small/a-young-man-in-a-blue-shirt-free-photo.jpg");
+    background-size: 150%;
+    background-position-x: center;
+    opacity: 0.7;
+}
+#img5{
+    border-radius: 50px;
+    height: 85px;
+    width: 85px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-image: url("https://img.magnific.com/free-photo/emotions-people-concept-headshot-serious-looking-handsome-man-with-beard-looking-confident-determined_1258-26730.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: 150%;
+    background-position-x: center;
+}#img6{
+    border-radius: 50px;
+    height: 65px;
+    width: 65px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/057/704/911/small/a-young-man-in-a-blue-shirt-free-photo.jpg");
+    background-size: 150%;
+    background-position-x: center;
+    opacity: 0.7;
+}
+#img5name{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#left{
+    margin-top: 15px;
+}
+#right{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#left:hover{
+    opacity: 0.6;
+}
+#right:hover{
+    opacity: 0.6;
 }
