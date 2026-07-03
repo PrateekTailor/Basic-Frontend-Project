@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+input{
+    padding: 9px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0.1px solid black;
+    opacity: 0.5;
+    margin-top: -400px;
+    box-shadow: 0px 1px 3px 0px black;
+}
+#calenderlogo{
+    margin-left: -25px;
+    margin-top: -400px;
+}
+#calender{
+    border: 0.01px solid black;
+    height: 250px;
+    width: 270px;
+    opacity: 0.5;
+    margin-left: -200px;
+    margin-top: -100px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.619);
+}
+#mmyy{
+    background-color: rgba(128, 128, 128, 0.226);
+    width: 270px;
+    height: 40px;
+}
+#month{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+
+#day{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+span{
+    font-weight: bolder;
+}
+#date{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
